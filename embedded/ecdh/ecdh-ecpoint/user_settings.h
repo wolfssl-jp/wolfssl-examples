@@ -1,0 +1,23 @@
+
+#define NO_ASN
+#define NO_ECC_KEY_EXPORT
+#define WOLFSSL_HAVE_SP_ECC
+#define WOLFSSL_SP_MATH_ALL
+
+/* ecc */
+#define NO_RSA
+#define HAVE_ECC
+#define HAVE_ECC_DHE
+#define ECC_TIMING_RESISTANT
+#define NO_ECC_KEY_IMPORT
+#define NO_ECC_KEY_EXPORT
+
+/* ONLY FOR TEST. NEED GENSSED FOR OPERATION */
+#define WOLFSSL_GENSEED_FORTEST
+
+/* for embedded */
+#define SINGLE_THREADED
+#define NO_WOLFSSL_DIR
+#define HAVE_HASHDRBG
+#define NO_DEV_RANDOM
+
